@@ -1,5 +1,6 @@
 import TopCategories from "./components/Categories/TopCategories";
 import Feedback from "./components/feedback/Feedback";
+import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Main from "./components/main/Main";
 import RecentlyAdded from "./components/recentlyAdded/RecentlyAdded";
@@ -16,6 +17,7 @@ const App = () => {
       <TopCategories />
       <Feedback />
       <Subscribe />
+      <Footer />
     </div>
   );
 };

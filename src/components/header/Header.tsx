@@ -48,8 +48,10 @@ const Header = () => {
                 <button className="right-side-button">Our Collections</button>
                 <FaBars onClick={() => setOpenNav(!openNav)} className="bar-icon" />
             </header>
-            <div className="nav-mobile"
-                style={{ height: openNav ? "350px" : "0", padding: openNav ? "20px" : "0" }}>
+            <div
+                className="nav-mobile"
+                style={{ height: openNav ? "350px" : "0", padding: openNav ? "20px" : "0" }}
+            >
                 <div onClick={() => setIsActive("home")}>
                     <a className={isActive === "home" ? "active-nav" : ""} href="#home">
                         Home
