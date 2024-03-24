@@ -1,6 +1,6 @@
-import pottery_img from "../../../assets/pottery-img.png";
+import pottery_img from "../../assets/pottery-image.png";
 import "./main.style.scss";
-import play_svg from "../../../assets/play.svg";
+import play_svg from "../../assets/play.svg";
 import datas from "./data";
 const Main = () => {
     return (

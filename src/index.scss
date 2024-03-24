@@ -1,5 +1,6 @@
 :root{
-    --bg-color: #FFFFFF;
+    --white: #fafafa;
+    --bg-color: #ffffff;
     --primary-color: #FF7B29;
     --secondary-color: #949494;
     --blue-color: #263FA3;
@@ -12,4 +13,5 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
+    background-color: var(--white);
 }
