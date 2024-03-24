@@ -5,6 +5,7 @@
     --secondary-color: #949494;
     --blue-color: #263FA3;
     --black-color: #000000;
+    --dark-blue-color: #132742;
 }
 
 * {
@@ -14,4 +15,8 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
     background-color: var(--white);
+}
+
+h1 {
+    background-color: transparent;
 }
