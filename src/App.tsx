@@ -1,7 +1,10 @@
+import Header from "./components/header/Header"
 
 const App = () => {
   return (
-    <div>App</div>
+    <div className="main">
+            <Header/>
+        </div>
   )
 }
 

@@ -1,0 +1,15 @@
+:root{
+    --bg-color: #FFFFFF;
+    --primary-color: #FF7B29;
+    --secondary-color: #949494;
+    --black-color: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    background-color: var(--bg-color);
+}
