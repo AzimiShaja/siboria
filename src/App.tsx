@@ -1,4 +1,5 @@
 import TopCategories from "./components/Categories/TopCategories";
+import Feedback from "./components/feedback/Feedback";
 import Header from "./components/header/Header";
 import Main from "./components/main/Main";
 import RecentlyAdded from "./components/recentlyAdded/RecentlyAdded";
@@ -12,6 +13,7 @@ const App = () => {
       <Search />
       <RecentlyAdded />
       <TopCategories />
+      <Feedback />
     </div>
   );
 };
