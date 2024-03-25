@@ -73,3 +73,18 @@
         display: none;
     }
 }
+@media screen and (max-width: 900px) {
+    .subscribe-container {
+        .subscribe-context {
+            padding: 10px;
+            .subscribe-text{
+                h1 {
+                    font-size: 1.5rem;
+                }
+                p{ 
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+}
